@@ -85,7 +85,7 @@ for (var i = 0; i < enemyNames.length; i++) {
 
     fight(pickedEnemyName);
 
-    if (i < enemyNames.length - 1) {
+    if (playerHealth > 0 && i < enemyNames.length - 1) {
       shop();
     }
   }
